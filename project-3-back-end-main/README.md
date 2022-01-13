@@ -73,7 +73,15 @@ To-do list:
 * Ability to contact customer support (live chat)
 
 ## Getting Started
-Please refer to `STARTUP.md` file
+* git clone `https://github.com/revature-rev-tech/project-3-back-end.git`
+
+TO RUN APPLICATION LOCALLY:
+----
+1. Open IDE and import project to workspace
+2. Navigate to src/main/java -> com.project3.revtech package -> RevtechApplication.java
+3. Run as Java Application to start the server
+4. Application and H2 database will run on server.port=7777
+5. Once the application is running, on your web browser navigate to `http://localhost:7777/h2-console` in order to access H2 console
 
 ## Entity Relationship Diagram
 ![ERD Image](https://i.postimg.cc/q75nz3yn/image.png)
