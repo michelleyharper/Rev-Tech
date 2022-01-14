@@ -232,7 +232,7 @@ Team Structure
 Contributors
 -----
 Scrum Master: 
-* Michelle Ng
+* Michelle Ng - Team Technical Lead
 
 Team Leads: 
 * Rowel Selidio - Technical Lead (User Development Team)
