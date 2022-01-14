@@ -15,6 +15,7 @@ Link to original repository:
 * [Getting Started](#getting-started)
 * [Entity Relationship Diagram](#entity-relationship-diagram)
 * [File Structure](#file-structure)
+* [Team Structure](#team-structure)
 * [Contributors](#contributors)
 
 # Project Description
