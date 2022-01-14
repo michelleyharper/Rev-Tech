@@ -232,7 +232,16 @@ Contributors
 -----
 Scrum Master: Michelle Ng
 
-Team Leads: Rowel Selidio, James Lemaire, Aimen Altaiyeb
+Team Leads: 
+* Rowel Selidio - Technical Lead (User Development Team)
+* James Lemaire - Technical Lead (Product Development Team)
+* Aimen Altaiyeb - Technical Lead (Transaction Development Team)
 
-Team Members: Derrice Wright, Tulika Ghosh, Anthony Johnson, Austin Noel, Tareeq Hamilton, Sameh Botros
+Team Members: 
+* Derrice Wright (User Development Team)
+* Tulika Ghosh (User Development Team)
+* Anthony Johnson (Product Development Team)
+* Austin Noel (Product Development Team)
+* Tareeq Hamilton (Transaction Development Team)
+* Sameh Botros (Transaction Development Team)
 
