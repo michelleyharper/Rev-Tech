@@ -2,6 +2,10 @@
 
 Project 3 - E-Commerce Store (Team Project)
 
+Link to original repository:
+* Back-End https://github.com/revature-rev-tech/project-3-back-end
+* Front-End https://github.com/revature-rev-tech/project-3-front-end-beta
+
 # Table of Contents
 
 * [Project Description](#project-description)
@@ -77,7 +81,7 @@ To-do list:
 Getting Started - Backend
 ----
 
-* git clone `https://github.com/revature-rev-tech/project-3-back-end.git`
+* git clone `https://github.com/michelleyharper/Rev-Tech.git`
 
 TO RUN APPLICATION LOCALLY:
 ----
@@ -95,7 +99,7 @@ THINGS TO NOTE:
 
 Getting Started - Frontend
 ----
-* git clone `https://github.com/revature-rev-tech/project-3-front-end-beta.git`
+* git clone `https://github.com/michelleyharper/Rev-Tech.git`
 
 TO RUN APPLICATION LOCALLY w/ LOCAL BACKEND:
 ----
@@ -219,6 +223,10 @@ Rev-Tech • E-Commerce
 ├── tsconfig.json
 └── tslint.json
 ```
+
+Team Structure
+----
+![Team Structure Image](https://i.postimg.cc/fL0gMJGz/Screen-Shot-2022-01-14-at-12-03-42-PM.png)
 
 Contributors
 -----
