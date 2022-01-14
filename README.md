@@ -13,6 +13,7 @@ Link to original repository:
 * [Project Requirements](#project-requirements)
 * [Features](#features)
 * [Getting Started](#getting-started)
+* [Application Screenshots](#application-screenshots)
 * [Entity Relationship Diagram](#entity-relationship-diagram)
 * [File Structure](#file-structure)
 * [Team Structure](#team-structure)
@@ -110,6 +111,15 @@ TO RUN APPLICATION LOCALLY w/ LOCAL BACKEND:
 4. Make sure the instance.ts file located in app -> models has `static url: string = "http://localhost:7777";` uncommented and `static url: string = "http://ec2-50-16-74-43.compute-1.amazonaws.com:7777";` commented out 
 5. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 6. Follow steps for how to run the backend locally
+
+# Application Screenshots
+![Store](https://i.postimg.cc/3R4p6GPB/Screen-Shot-2022-01-14-at-12-25-43-PM.png)
+![Login / Register / Profile](https://i.postimg.cc/sgMh172R/Screen-Shot-2022-01-14-at-12-40-20-PM.png)
+![Product Details / Review](https://i.postimg.cc/wMbDbVB0/Screen-Shot-2022-01-14-at-12-51-19-PM.png)
+![Cart / Checkout / Confirmation / Orders History](https://i.postimg.cc/NGPTtdgx/Screen-Shot-2022-01-14-at-12-54-49-PM.png)
+![Manage Store](https://i.postimg.cc/rst534tT/Screen-Shot-2022-01-14-at-1-09-55-PM.png)
+![Manage Store Forms](https://i.postimg.cc/1XJZxgxW/Screen-Shot-2022-01-14-at-1-04-27-PM.png)
+
 
 # Entity Relationship Diagram
 ![ERD Image](https://i.postimg.cc/q75nz3yn/image.png)
