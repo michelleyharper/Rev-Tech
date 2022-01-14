@@ -2,7 +2,7 @@
 
 Project 3 - E-Commerce Store (Team Project)
 
-## Table of Contents
+# Table of Contents
 
 * [Project Description](#project-description)
 * [Technologies Used](#technologies-used)
@@ -13,10 +13,10 @@ Project 3 - E-Commerce Store (Team Project)
 * [File Structure](#file-structure)
 * [Contributors](#contributors)
 
-## Project Description
+# Project Description
 The Revtech E-Commerce Application is an Angular Single Page Application (SPA) that will allow users to sign up and login as a customer, browse all available products, view an individual product, and add products to their carts for purchase. Any user can browse the database of products, however, in order to purchase one you must be logged into an account. A new account can be created using the sign-up button. After an account is created the user will be able to login and purchase the products(s) of their choice. With our products route, the user is able to view all of the products we have in our database on a single page. When the user clicks on a product that they are interested in, it will redirect them to that product’s specific page to see additional details. Here, the user will be able to see the title, cost, discount and description of the product. This page will also include a button that will add the product to their cart if they would like to purchase it. The cart is the user’s final destination and where they will be able to see the products they wish to purchase, review the total costs of selected products, and also be able to check the products out to complete their purchase.
 
-## Technologies Used
+# Technologies Used
 * Java (Programming Language) - version 11.0.12
 * TypeScript (Programming Language)
 * HTML (HyperText Markup Language)
@@ -36,7 +36,7 @@ The Revtech E-Commerce Application is an Angular Single Page Application (SPA) t
 * Microsoft Visual Studio Code (Source Code Editor)
 * Postman (API Platform)
 
-## Project Requirements
+# Project Requirements
 1. As a User, I should be able to register a new account.
 2. As a User, I should be able to log into the application.
 3. As a User, I should be able to log out of the application.
@@ -47,7 +47,7 @@ The Revtech E-Commerce Application is an Angular Single Page Application (SPA) t
 8. As a User, I should be able to select an amount of an item to add to my cart as I am adding an item.
 9. As a User, I should be able to checkout with the items in my cart, purchasing them and removing them from the inventory.
 
-## Features
+# Features
 List of features ready and TODOs for future development
 * Ability to register as a customer
 * Ability to login as an customer or administrator
@@ -72,14 +72,44 @@ To-do list:
 * Ability to add items and checkout instantly (buy now) as a user
 * Ability to contact customer support (live chat)
 
-## Getting Started
+# Getting Started
+
+Getting Started - Backend
+----
+
 * git clone `https://github.com/revature-rev-tech/project-3-back-end.git`
+
+TO RUN APPLICATION LOCALLY:
+----
+1. Open IDE and import project to workspace
+2. Navigate to src/main/java -> com.project3.revtech package -> RevtechApplication.java
+3. Run as Java Application to start the server
+4. Application and H2 database will run on server.port=7777
+5. Once the application is running, on your web browser navigate to `http://localhost:7777/h2-console` in order to access H2 console
+
+THINGS TO NOTE:
+----
+* The application.properties file contains the H2 database configuraton
+* The schema.sql and data.sql files located in src/main/resources will auto generate the tables and data within the H2 database
+* The application.yml file contains the AWS credentials to access the S3 bucket which we use to host the images from product image upload
+
+Getting Started - Frontend
+----
 * git clone `https://github.com/revature-rev-tech/project-3-front-end-beta.git`
 
-## Entity Relationship Diagram
+TO RUN APPLICATION LOCALLY w/ LOCAL BACKEND:
+----
+1. Run `npm install` to install the node_modules folder
+2. Open source-code editor (ex.Visual Studio Code) and open project to load into workspace
+3. Make sure the index.html file located in the src file has `<base href"/">` uncommented and `<base href="/dist/rev-tech/">` commented out
+4. Make sure the instance.ts file located in app -> models has `static url: string = "http://localhost:7777";` uncommented and `static url: string = "http://ec2-50-16-74-43.compute-1.amazonaws.com:7777";` commented out 
+5. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+6. Follow steps for how to run the backend locally
+
+# Entity Relationship Diagram
 ![ERD Image](https://i.postimg.cc/q75nz3yn/image.png)
 
-## File Structure
+# File Structure
 Within the download you'll find the following directories and files:
 
 ```
